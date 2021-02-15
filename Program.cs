@@ -49,6 +49,7 @@ namespace ChoosingAnAdventure
             Console.WriteLine("Type your answer: ");
             string riddleAnswer = Console.ReadLine();
             riddleAnswer = riddleAnswer.ToUpper();
+            Console.WriteLine(riddleAnswer);
 
             if(riddleAnswer == "NOTHING")
             {
@@ -85,4 +86,4 @@ namespace ChoosingAnAdventure
             
         }
     }
-}
+} 
