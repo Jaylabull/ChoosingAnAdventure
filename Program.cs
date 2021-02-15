@@ -65,7 +65,7 @@ namespace ChoosingAnAdventure
 
             Console.WriteLine("Enter a number (1-3): ");
             string keyChoice = Console.ReadLine();
-            keyChoice = keyChoice.ToUpper();
+       
 
             switch (keyChoice)
             {
